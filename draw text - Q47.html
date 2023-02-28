@@ -9,13 +9,8 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.beginPath();
 ctx.arc(150,90,60,0,3*Math.PI);
-ctx.stroke();
-ctx.moveTo(0,0);
-ctx.lineTo(200,100);
-ctx.stroke();
-ctx.moveTo(50,50);
-ctx.lineTo(200,100);
-ctx.stroke();
+ctx.font = "48px serif";
+ctx.fillText("I drew on canvas :)", 10, 50);
 </script> 
 
 </body>
